@@ -4,7 +4,11 @@ This is a language extension built upon the existing TextMate grammar in the [SD
 
 Built using instructions from:
 
-1. https://github.com/microsoft/vscode-generator-code `npm install -g yo generator-code`
-2. https://code.visualstudio.com/api/working-with-extensions/publishing-extension ``
-
+1. https://github.com/microsoft/vscode-generator-code
+   - `npm install -g yo generator-code`
+   - `yo code`
+2. https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+   - `npm install -g @vscode/vsce`
+   - `vsce package`
+   - `vsce publish`
 
