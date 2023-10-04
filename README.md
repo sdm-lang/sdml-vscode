@@ -4,7 +4,9 @@ This extension, provides syntax support for the [Simple Domain Modeling Language
 
 ## Features
 
-Syntax highlighting is provided, based upon the existing TextMate grammar in the [SDML.tmbundle](https://github.com/sdm-lang/SDML.tmbundle) repository. 
+Syntax highlighting is provided, based upon the existing TextMate grammar in the [SDML.tmbundle](https://github.com/sdm-lang/SDML.tmbundle) repository.
+
+![Syntax Highlighting](./images/vscode-highlighting.png)
 
 Some of the TextMate bundle's snippets have been copied over as well.
 
