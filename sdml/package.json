@@ -1,0 +1,25 @@
+{
+  "name": "sdml",
+  "displayName": "SDML Language Extension",
+  "description": "Extension for Simple Domain Modeling Language (SDML)",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "sdml",
+      "aliases": ["SDML", "sdml"],
+      "extensions": [".sdml",".sdm"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sdml",
+      "scopeName": "source.sdml",
+      "path": "./syntaxes/sdml.tmLanguage"
+    }]
+  }
+}
