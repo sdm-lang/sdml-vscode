@@ -1,9 +1,22 @@
-# SDML VSCode Extension
+# SDML
 
-This is a language extension built upon the existing TextMate grammar in the [SDML.tmbundle](https://github.com/sdm-lang/SDML.tmbundle) repository.
+This extension, provides syntax support for the [Simple Domain Modeling Language](https://sdml.io) (SDML).
 
-Built using instructions from:
+## Features
 
-1. https://github.com/microsoft/vscode-generator-code
-2. https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+Currently only syntax highlighting is supported.
 
+To come:
+
+- snippets,
+- command-line tool support.
+
+## Known Issues
+
+Does not yet support formal constraints.
+
+## Release Notes
+
+### 0.1.0
+
+Initial release.

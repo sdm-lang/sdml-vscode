@@ -3,6 +3,10 @@
   "displayName": "SDML Language Extension",
   "description": "Extension for Simple Domain Modeling Language (SDML)",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdm-lang/sdml-vscode"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },
