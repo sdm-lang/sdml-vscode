@@ -1,0 +1,116 @@
+{
+	"al": {
+		"prefix": "al",
+		"body": "@skos:altLabel = \"${1}\"@en",
+		"description": "altLabel",
+		"scope": "source.sdml"
+	},
+	"dt": {
+		"prefix": "dt",
+		"body": "datatype ${1} <- ${2} is\n  @skos:prefLabel = \"${3}\"@en\nend",
+		"description": "datatype",
+		"scope": "source.sdml"
+	},
+	"df": {
+		"prefix": "df",
+		"body": "@skos:definition = \"${1}\"@en",
+		"description": "definition",
+		"scope": "source.sdml"
+	},
+	"ds": {
+		"prefix": "ds",
+		"body": "@dc:description = \"{$1}\"@en",
+		"description": "description",
+		"scope": "source.sdml"
+	},
+	"en": {
+		"prefix": "en",
+		"body": "entity ${1} is\n  identity id -> unknown\nend",
+		"description": "entity",
+		"scope": "source.sdml"
+	},
+	"eu": {
+		"prefix": "eu",
+		"body": "enum {$1} is\n  ThingOne\n  ThingTwo\nend",
+		"description": "enum",
+		"scope": "source.sdml"
+	},
+	"ev": {
+		"prefix": "ev",
+		"body": "event ${1} source ${2} is\n  name -> Type\nend",
+		"description": "event",
+		"scope": "source.sdml"
+	},
+	"ex": {
+		"prefix": "ex",
+		"body": "@skos:example = \"${1}\"@en",
+		"description": "example",
+		"scope": "source.sdml"
+	},
+	"id": {
+		"prefix": "id",
+		"body": "identity ${1|id,key|} -> ${2|unknown,integer,sdml:Uuid|}",
+		"description": "identity member",
+		"scope": "source.sdml meta.declaration.entity.sdml"
+	},
+	"mem": {
+		"prefix": "mem",
+		"body": "{$1} -> ${$2|unknown|}",
+		"description": "member",
+		"scope": "source.sdml"
+	},
+	"mo": {
+		"prefix": "mo",
+		"body": "module ${1} is\n\n  ; imports\n  \n  ; attributes\n  \n  ; definitions\nend",
+		"description": "module",
+		"scope": "source.sdml"
+	},
+	"oseq": {
+		"prefix": "oseq",
+		"body": "{$1} -> {ordered 0..} ${$2|unknown|}",
+		"description": "ordered sequence member",
+		"scope": "source.sdml"
+	},
+	"oset": {
+		"prefix": "oset",
+		"body": "{$1} -> {ordered unique 0..} ${$2|unknown|}",
+		"description": "ordered set member",
+		"scope": "source.sdml"
+	},
+	"pl": {
+		"prefix": "pl",
+		"body": "@skos:prefLabel = \"${1}\"@en",
+		"description": "prefLabel",
+		"scope": "source.sdml"
+	},
+	"pr": {
+		"prefix": "pr",
+		"body": "property ${1} is\n  role -> Type\nend",
+		"description": "property",
+		"scope": "source.sdml"
+	},
+	"seq": {
+		"prefix": "seq",
+		"body": "{$1} -> {0..} ${$2|unknown|}",
+		"description": "sequence member",
+		"scope": "source.sdml"
+	},
+	"set": {
+		"prefix": "set",
+		"body": "{$1} -> {unique 0..} ${$2|unknown|}",
+		"description": "set member",
+		"scope": "source.sdml"
+	},
+	"st": {
+		"prefix": "st",
+		"body": "structure ${1} is\n  name -> Type\nend",
+		"description": "structure",
+		"scope": "source.sdml"
+	},
+	"un": {
+		"prefix": "un",
+		"body": "union ${1} is\n  TypeOne\n  TypeTwo\nend",
+		"description": "union",
+		"scope": "source.sdml"
+	}
+}

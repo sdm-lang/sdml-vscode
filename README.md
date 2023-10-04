@@ -4,16 +4,15 @@ This extension, provides syntax support for the [Simple Domain Modeling Language
 
 ## Features
 
-Currently only syntax highlighting is supported.
+Syntax highlighting is provided, based upon the existing TextMate grammar in the [SDML.tmbundle](https://github.com/sdm-lang/SDML.tmbundle) repository. 
 
-To come:
-
-- snippets,
-- command-line tool support.
+Some of the TextMate bundle's snippets have been copied over as well.
 
 ## Known Issues
 
 Does not yet support formal constraints.
+
+The SDML command-line tools is not integrated.
 
 ## Release Notes
 
