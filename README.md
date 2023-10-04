@@ -6,7 +6,7 @@ Currently this is not a published extension, and so it needs to be manually inst
 
 ```bash
 $ cd $HOME/.vscode/extensions
-git clone https://github.com/sdm-lang/sdml-vscode.git
+$ git clone https://github.com/sdm-lang/sdml-vscode.git
 ```
 
 ## Features
