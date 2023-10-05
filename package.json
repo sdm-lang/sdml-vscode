@@ -2,6 +2,7 @@
   "name": "sdml",
   "displayName": "SDML Language Extension",
   "description": "Extension for Simple Domain Modeling Language (SDML)",
+  "publisher": "SimonJohnston",
   "version": "0.1.0",
   "repository": {
     "type": "git",
