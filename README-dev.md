@@ -12,3 +12,5 @@ Built using instructions from:
    - `vsce package`
    - `vsce publish`
 
+- [Azure DevOps](https://dev.azure.com/SimonJohnston/)
+- [Marketplace Publisher](https://marketplace.visualstudio.com/manage/publishers/SimonJohnston)
