@@ -1,116 +1,116 @@
 {
-	"al": {
+	"SKOS altLabel annotation": {
 		"prefix": "al",
 		"body": "@skos:altLabel = \"${1}\"@en",
-		"description": "altLabel",
+		"description": "SKOS altLabel annotation",
 		"scope": "source.sdml"
 	},
-	"dt": {
+	"new datatype declaration": {
 		"prefix": "dt",
 		"body": "datatype ${1} <- ${2} is\n  @skos:prefLabel = \"${3}\"@en\nend",
-		"description": "datatype",
+		"description": "new datatype declaration",
 		"scope": "source.sdml"
 	},
-	"df": {
+	"SKOS definition annotation": {
 		"prefix": "df",
 		"body": "@skos:definition = \"${1}\"@en",
-		"description": "definition",
+		"description": "SKOS definition annotation",
 		"scope": "source.sdml"
 	},
-	"ds": {
+	"DCMI description annotation": {
 		"prefix": "ds",
 		"body": "@dc:description = \"{$1}\"@en",
-		"description": "description",
+		"description": "DCMI description annotation",
 		"scope": "source.sdml"
 	},
-	"en": {
+	"new entity declaration": {
 		"prefix": "en",
 		"body": "entity ${1} is\n  identity id -> unknown\nend",
-		"description": "entity",
+		"description": "new entity declaration",
 		"scope": "source.sdml"
 	},
-	"eu": {
+	"new enum declaration": {
 		"prefix": "eu",
 		"body": "enum {$1} is\n  ThingOne\n  ThingTwo\nend",
-		"description": "enum",
+		"description": "new enum declaration",
 		"scope": "source.sdml"
 	},
-	"ev": {
+	"new event declaration": {
 		"prefix": "ev",
 		"body": "event ${1} source ${2} is\n  name -> Type\nend",
-		"description": "event",
+		"description": "new event declaration",
 		"scope": "source.sdml"
 	},
-	"ex": {
+	"SKOS example annotation": {
 		"prefix": "ex",
 		"body": "@skos:example = \"${1}\"@en",
-		"description": "example",
+		"description": "SKOS example annotation",
 		"scope": "source.sdml"
 	},
-	"id": {
+	"new identity member declaration": {
 		"prefix": "id",
 		"body": "identity ${1|id,key|} -> ${2|unknown,integer,sdml:Uuid|}",
-		"description": "identity member",
+		"description": "new identity member declaration",
 		"scope": "source.sdml meta.declaration.entity.sdml"
 	},
-	"mem": {
+	"new member declaration": {
 		"prefix": "mem",
 		"body": "{$1} -> ${$2|unknown|}",
-		"description": "member",
+		"description": "new member declaration",
 		"scope": "source.sdml"
 	},
-	"mo": {
+	"monew module declaration": {
 		"prefix": "mo",
 		"body": "module ${1} is\n\n  ; imports\n  \n  ; attributes\n  \n  ; definitions\nend",
-		"description": "module",
+		"description": "new module declaration",
 		"scope": "source.sdml"
 	},
-	"oseq": {
+	"new ordered sequence member declaration": {
 		"prefix": "oseq",
 		"body": "{$1} -> {ordered 0..} ${$2|unknown|}",
-		"description": "ordered sequence member",
+		"description": "new ordered sequence member declaration",
 		"scope": "source.sdml"
 	},
-	"oset": {
+	"new ordered set member declaration": {
 		"prefix": "oset",
 		"body": "{$1} -> {ordered unique 0..} ${$2|unknown|}",
-		"description": "ordered set member",
+		"description": "new ordered set member declaration",
 		"scope": "source.sdml"
 	},
-	"pl": {
+	"SKOS prefLabel annotation": {
 		"prefix": "pl",
 		"body": "@skos:prefLabel = \"${1}\"@en",
-		"description": "prefLabel",
+		"description": "SKOS prefLabel annotation",
 		"scope": "source.sdml"
 	},
-	"pr": {
+	"new property declaration": {
 		"prefix": "pr",
 		"body": "property ${1} is\n  role -> Type\nend",
-		"description": "property",
+		"description": "new property declaration",
 		"scope": "source.sdml"
 	},
-	"seq": {
+	"sequence member declaration": {
 		"prefix": "seq",
 		"body": "{$1} -> {0..} ${$2|unknown|}",
-		"description": "sequence member",
+		"description": "sequence member declaration",
 		"scope": "source.sdml"
 	},
-	"set": {
+	"new set member declaration": {
 		"prefix": "set",
 		"body": "{$1} -> {unique 0..} ${$2|unknown|}",
-		"description": "set member",
+		"description": "new set member declaration",
 		"scope": "source.sdml"
 	},
-	"st": {
+	"new structure declaration": {
 		"prefix": "st",
 		"body": "structure ${1} is\n  name -> Type\nend",
-		"description": "structure",
+		"description": "new structure declaration",
 		"scope": "source.sdml"
 	},
-	"un": {
+	"new union declaration": {
 		"prefix": "un",
 		"body": "union ${1} is\n  TypeOne\n  TypeTwo\nend",
-		"description": "union",
+		"description": "new union declaration",
 		"scope": "source.sdml"
 	}
 }
