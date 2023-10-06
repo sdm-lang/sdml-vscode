@@ -1,5 +1,10 @@
 .vscode/**
 .vscode-test/**
+src/**
 .gitignore
 README-dev.md
 images
+**/tsconfig.json
+**/.eslintrc.json
+**/*.map
+**/*.ts

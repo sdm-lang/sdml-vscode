@@ -11,10 +11,16 @@
   "engines": {
     "vscode": "^1.83.0"
   },
+  "keywords": [
+    "Modeling",
+    "Domain Modeling"
+  ],
   "categories": [
     "Snippets",
     "Programming Languages"
   ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
   "contributes": {
     "languages": [{
       "id": "sdml",
@@ -32,6 +38,90 @@
         "language": "sdml",
         "path": "./snippets/snippets.code-snippets"
       }
+    ],
+    "commands": [
+      {
+        "command": "sdml.drawConceptDiagram",
+        "title": "Draw Concept Diagram"
+      },
+      {
+        "command": "sdml.drawEntityDiagram",
+        "title": "Draw Entity-Relationship Diagram"
+      },
+      {
+        "command": "sdml.drawClassDiagram",
+        "title": "Draw UML Class Diagram"
+      }
+
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "sdml.drawConceptDiagram",
+          "when": "editorLangId == sdml"
+        },
+        {
+          "command": "sdml.drawEntityDiagram",
+          "when": "editorLangId == sdml"
+        },
+        {
+          "command": "sdml.drawClassDiagram",
+          "when": "editorLangId == sdml"
+        }
+      ]
+    },
+    "configuration": [
+      {
+        "id": "sdml.configuration",
+        "title": "SDML",
+        "properties": {
+          "sdml.command.executable": {
+            "type": "string",
+            "default": "sdml",
+            "description": "The name of the SDML command-line tool executable."
+          },
+          "sdml.command.terminalName": {
+            "type": "string",
+            "default": "SDML Command-Line",
+            "description": "The name of the terminal used to run the SDML command-line tool."
+          },
+           "sdml.drawing.defaultFormat": {
+            "type": "string",
+            "enum": [
+              "jpg",
+              "png",
+              "svg"
+            ],
+            "enumDescriptions": [
+              "JPEG",
+              "PNG, a better JPEG",
+              "SVG, a scalable form, great for the web"
+            ],
+            "default": "png",
+            "description": "Complete functions with their parameter signature."
+          }
+        }
+      }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.83.0",
+    "@types/mocha": "^10.0.2",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-electron": "^2.3.4"
   }
 }

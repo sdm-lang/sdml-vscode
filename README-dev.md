@@ -14,3 +14,5 @@ Built using instructions from:
 
 - [Azure DevOps](https://dev.azure.com/SimonJohnston/)
 - [Marketplace Publisher](https://marketplace.visualstudio.com/manage/publishers/SimonJohnston)
+- https://github.com/marketplace/actions/github-action-for-vsce
+- https://code.visualstudio.com/api/language-extensions/language-configuration-guide
