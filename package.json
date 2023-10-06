@@ -3,7 +3,7 @@
   "displayName": "SDML Language Extension",
   "description": "Extension for Simple Domain Modeling Language (SDML)",
   "publisher": "SimonJohnston",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/sdm-lang/sdml-vscode"
@@ -22,17 +22,27 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "languages": [{
-      "id": "sdml",
-      "aliases": ["SDML", "sdml"],
-      "extensions": [".sdml",".sdm"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "sdml",
-      "scopeName": "source.sdml",
-      "path": "./syntaxes/sdml.tmLanguage"
-    }],
+    "languages": [
+      {
+        "id": "sdml",
+        "aliases": [
+          "SDML",
+          "sdml"
+        ],
+        "extensions": [
+          ".sdml",
+          ".sdm"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sdml",
+        "scopeName": "source.sdml",
+        "path": "./syntaxes/sdml.tmLanguage"
+      }
+    ],
     "snippets": [
       {
         "language": "sdml",
@@ -52,7 +62,6 @@
         "command": "sdml.drawClassDiagram",
         "title": "Draw UML Class Diagram"
       }
-
     ],
     "menus": {
       "commandPalette": [
@@ -85,7 +94,7 @@
             "default": "SDML Command-Line",
             "description": "The name of the terminal used to run the SDML command-line tool."
           },
-           "sdml.drawing.defaultFormat": {
+          "sdml.drawing.defaultFormat": {
             "type": "string",
             "enum": [
               "jpg",
