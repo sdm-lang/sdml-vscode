@@ -44,9 +44,12 @@ $ git clone https://github.com/sdm-lang/sdml-vscode.git
 * Feature: add commands for drawing diagrams, accessible from the palette.
   * Commands only available when editing an SDML file.
   * Execute commands in a terminal window, this allows the user to learn the CLI.
-* Feature: add settings for command-line executable name and default drawing format.
 
 ![Drawing via Terminal](./images/vscode-draw-terminal.png)
+
+* Feature: add settings for command-line executable name and default drawing format.
+
+![Extension Settings](./images/vscode-settings.png)
 
 ### 0.1.0
 
