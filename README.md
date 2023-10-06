@@ -10,11 +10,15 @@ Syntax highlighting is provided, based upon the existing TextMate grammar in the
 
 Some of the TextMate bundle's snippets have been copied over as well.
 
+The SDML command-line tool is integrated via the Terminal window. The available commands are:
+
+* Draw Concept Diagram
+* Draw Entity-Relationship Diagram
+* Draw UML Class Diagram
+
 ## Known Issues
 
 Does not yet support formal constraints.
-
-The SDML command-line tools is not integrated.
 
 ## Manual Installation
 
@@ -30,6 +34,19 @@ $ git clone https://github.com/sdm-lang/sdml-vscode.git
 ```
 
 ## Release Notes
+
+### 0.2.1
+
+* Fix: update README for 0.2.0
+
+### 0.2.0
+
+* Feature: add commands for drawing diagrams, accessible from the palette.
+  * Commands only available when editing an SDML file.
+  * Execute commands in a terminal window, this allows the user to learn the CLI.
+* Feature: add settings for command-line executable name and default drawing format.
+
+![Drawing via Terminal](./images/vscode-draw-terminal.png)
 
 ### 0.1.0
 
