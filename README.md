@@ -40,8 +40,8 @@ Does not yet support formal constraints.
 This can be directly installed from
 
 * the Visual Studio [marketplace](https://marketplace.visualstudio.com/items?itemName=SimonJohnston.sdml)
-* the Extensions View within VSCode
-* The command line `code --install-extension SimonJohnston.sdml`
+* the Extensions View within VSCode, search for 'sdml'
+* The command line: `code --install-extension SimonJohnston.sdml`
 * or manually:
 
 ```bash
