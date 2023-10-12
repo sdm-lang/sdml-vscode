@@ -1,4 +1,19 @@
-# SDML
+# SDML Extension for Visual Studio Code
+
+```
+        ___          _____          ___
+       /  /\        /  /::\        /__/\
+      /  /:/_      /  /:/\:\      |  |::\
+     /  /:/ /\    /  /:/  \:\     |  |:|:\    ___     ___
+    /  /:/ /::\  /__/:/ \__\:|  __|__|:|\:\  /__/\   /  /\
+   /__/:/ /:/\:\ \  \:\ /  /:/ /__/::::| \:\ \  \:\ /  /:/
+   \  \:\/:/~/:/  \  \:\  /:/  \  \:\~~\__\/  \  \:\  /:/
+    \  \::/ /:/    \  \:\/:/    \  \:\         \  \:\/:/
+     \__\/ /:/      \  \::/      \  \:\         \  \::/
+       /__/:/        \__\/        \  \:\         \__\/
+       \__\/          Domain       \__\/          Language
+        Simple                      Modeling
+```
 
 This extension, provides syntax support for the [Simple Domain Modeling Language](https://sdml.io) (SDML).
 
@@ -20,17 +35,18 @@ The SDML command-line tool is integrated via the Terminal window. The available 
 
 Does not yet support formal constraints.
 
-## Manual Installation
+## Installation
 
-Find the extension folder for VSCode on your machine and use Git to clone a copy of this repository locally. Once copied you can restart VSCode to edit SDML files.
+This can be directly installed from
 
-* Windows: `%USERPROFILE%\.vscode\extensions``
-* macOS: `~/.vscode/extensions``
-* Linux: `~/.vscode/extensions``
+* the Visual Studio [marketplace](https://marketplace.visualstudio.com/items?itemName=SimonJohnston.sdml)
+* the Extensions View within VSCode
+* The command line `code --install-extension SimonJohnston.sdml`
+* or manually:
 
 ```bash
-$ cd $HOME/.vscode/extensions
 $ git clone https://github.com/sdm-lang/sdml-vscode.git
+$ code --install-extension ./sdml-vscode
 ```
 
 ## Release Notes
