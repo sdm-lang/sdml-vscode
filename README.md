@@ -1,19 +1,6 @@
 # SDML Extension for Visual Studio Code
 
-```
-        ___          _____          ___
-       /  /\        /  /::\        /__/\
-      /  /:/_      /  /:/\:\      |  |::\
-     /  /:/ /\    /  /:/  \:\     |  |:|:\    ___     ___
-    /  /:/ /::\  /__/:/ \__\:|  __|__|:|\:\  /__/\   /  /\
-   /__/:/ /:/\:\ \  \:\ /  /:/ /__/::::| \:\ \  \:\ /  /:/
-   \  \:\/:/~/:/  \  \:\  /:/  \  \:\~~\__\/  \  \:\  /:/
-    \  \::/ /:/    \  \:\/:/    \  \:\         \  \:\/:/
-     \__\/ /:/      \  \::/      \  \:\         \  \::/
-       /__/:/        \__\/        \  \:\         \__\/
-       \__\/          Domain       \__\/          Language
-        Simple                      Modeling
-```
+![SDML Logo Text](https://raw.githubusercontent.com/sdm-lang/.github/main/profile/horizontal-text.svg)
 
 This extension, provides syntax support for the [Simple Domain Modeling Language](https://sdml.io) (SDML).
 
@@ -48,6 +35,10 @@ This can be directly installed from
 $ git clone https://github.com/sdm-lang/sdml-vscode.git
 $ code --install-extension ./sdml-vscode
 ```
+
+## License
+
+This package is released under the Apache License, Version 2.0. See LICENSE file for details.
 
 ## Release Notes
 
